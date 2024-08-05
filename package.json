@@ -1,0 +1,30 @@
+{
+  "name": "image-viewer",
+  "version": "1.0.0",
+  "description": "A Node.js-based image viewer application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "image",
+    "viewer",
+    "node.js",
+    "express"
+  ],
+  "author": "Gedoni Ani",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cloudinary": "^2.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^2.7.0",
+    "nodemon": "^3.1.4",
+    "sharp": "^0.32.6"
+  }
+}
